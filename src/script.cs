@@ -35,10 +35,10 @@ ItemResponse<Product> readItemResponse = await container.ReadItemAsync<Product>(
     partitionKey: new PartitionKey("gear-surf-surfboards")
 );
 
-string query = "SELECT * FROM products p WHERE p.category = @category";
+string query = "SELECT * FROM products p WHERE p.category = @partition-key";
 
 var queryDefinition = new QueryDefinition(query)
-  .WithParameter("@category", "gear-surf-surfboards");
+  .WithParameter("@partition-key", "gear-surf-surfboards");
 
 using FeedIterator<Product> feed = container.GetItemQueryIterator<Product>(
     queryDefinition
