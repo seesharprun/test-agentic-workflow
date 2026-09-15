@@ -17,7 +17,7 @@ engine:
   agent: csharp-dotnet-development:expert-dotnet-software-engineer
 safe-outputs:
   add-comment:
-  max: 1
+    max: 1
 ---
 
 # Evaluate C# Code
