@@ -11,7 +11,7 @@ permissions:
   pull-requests: read
   copilot-requests: write
 plugins:
-  - github/awesome-copilot/plugins/csharp-dotnet-development@main
+  - github/awesome-copilot/plugins/csharp-dotnet-development@marketplace
 engine:
   id: copilot
   agent: csharp-dotnet-development:expert-dotnet-software-engineer
