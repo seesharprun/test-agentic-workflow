@@ -1,9 +1,9 @@
 {
   "entries": {
-    "github/awesome-copilot/plugins/csharp-dotnet-development@main": {
+    "github/awesome-copilot/plugins/csharp-dotnet-development@marketplace": {
       "repo": "github/awesome-copilot/plugins/csharp-dotnet-development",
-      "version": "main",
-      "sha": "fb4eb04fcbd30de50052b1155d81167393dfb5aa"
+      "version": "marketplace",
+      "sha": "0a4f61b3c4d99b84709ae5e16f14e3e71951d656"
     },
     "github/gh-aw-actions/setup-cli@v0.89.1": {
       "repo": "github/gh-aw-actions/setup-cli",
